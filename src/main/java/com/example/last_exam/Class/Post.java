@@ -26,6 +26,6 @@ public class Post {
     @NotEmpty
     String title;
     String content;
-    @ManyToMany(mappedBy = "posts")
+    @ManyToMany
     List<Tag> tags;
 }

@@ -1,3 +1,15 @@
 .error {
     color: red;
 }
+
+table, th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #3a87bb;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: #45a4e4;
+}
